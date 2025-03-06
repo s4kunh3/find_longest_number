@@ -13,7 +13,7 @@ int count_size(int num){
     return count;
 }
 
-int find_longest_number(int* nums, size_t nums_size){
+int find_longest_number(int* nums, int nums_size){
     int output = nums[0];
     int digits = count_size(nums[0]);
     int current;

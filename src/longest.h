@@ -4,6 +4,6 @@
 #include <stddef.h>
 
 int count_size(int num);
-int find_longest_number(int* nums, size_t nums_size);
+int find_longest_number(int* nums, int nums_size);
 
 #endif
