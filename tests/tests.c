@@ -3,7 +3,7 @@
 #include <assert.h>
 #include "../src/longest.h"
 
-extern int find_longest_number(int* nums, size_t nums_size);
+extern int find_longest_number(int* nums, int nums_size);
 
 void test_function(){
     int arr1[] = {1000, 2, 300, -50000, 400};
